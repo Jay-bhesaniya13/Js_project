@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="rps.css">
+    <script src="rps.js"></script>
+</head>
+<body>
+
+
+    <div class="main">
+
+        <div class="home">
+            <a href="index.html">
+                 <img src="./image/home.png" alt="Home" class="home_img">
+            </a>
+       </div>
+       
+        <div class="computer" id="computer">
+
+               <p class="com_roll" id="computer_box"> 
+                  <img src="./image/rock.png" >
+                 </p> 
+
+
+             <div class="com_child">
+              
+                <p id="round_display">
+
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player" id="player">
+          
+            <button value="rock" class="btn" OnClick="player_input('Rock')"> 
+                <img src="./image/rock.png" > </button>
+            <button type="button" value="Paper"  OnClick="player_input('Paper')" class="btn">
+                 <img src="./image/paper.png"> </button>
+            <button type="button" value="scissor"  OnClick="player_input('Scissors')" class="btn"> 
+                <img src="./image/scissors.png"> </button>
+        </div>
+        
+    </div>
+
+    <div class="conclusion" >
+        <p class="p_c_title">You choosed </p>
+        
+        <p id="player_choose">
+        </p>
+    </div>
+
+    
+</body>
+</html>

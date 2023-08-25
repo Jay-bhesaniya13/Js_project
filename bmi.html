@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>BMI_CALC</title>
+     <link rel="stylesheet" href="bmi.css">
+     <script src="bmi.js"></script>
+</head>
+
+<body>
+     <div class="main">
+
+          <div class="home">
+               <a href="index.html">
+                    <img src="./image/home.png" alt="Home" class="home_img">
+               </a>
+          </div>
+
+          <div class="child">
+               <label for="height">Height</label>
+               <input type="text" placeholder="height(Cm)" id="height" class="box" name="height" required>
+               <br>
+
+               <label for="height">Weight</label>
+               <input type="text" placeholder="weight(Kg)" id="weight" class="box" name="weight" required>
+               <br>
+
+               <label for="height">Age</label> <br>
+               <input type="text" placeholder="age" id="age" class="box" name="age" required>
+
+               <br>
+               <button class="submit" OnClick="display()">submit</button>
+
+          </div>
+
+
+
+          <div class="display">
+               <h6 class="result">Result</h6>
+               <p id="display"> Hello !!</p>
+               <br>
+               <p id="conclusion"></p>
+          </div>
+     </div>
+</body>
+
+</html>
