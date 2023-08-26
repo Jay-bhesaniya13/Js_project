@@ -1,22 +1,20 @@
-body{
-background-color: rgb(50, 48, 48);
+body {
+    background-color: rgb(50, 48, 48);
 }
 
 
-.main
-{
-       display: flex;
-       gap: 20px;
-       justify-content: center;
+.main_card {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 5vw auto;
 }
 
-.title_card
-{
+.title_card {
     text-decoration: none;
 }
 
-.card
-{
+.card {
     background-color: cyan;
     margin-left: 45px;
     height: 25vh;
@@ -29,16 +27,71 @@ background-color: rgb(50, 48, 48);
     font-size: 3vh;
     color: rgb(27, 27, 85);
     transition: 1.2s;
-    cursor:pointer;
+    cursor: pointer;
 
 }
 
-.card:hover
-{
+.card:hover {
     box-shadow: 30px 30px 35px rgb(26, 172, 198);
     background-color: rgb(255, 255, 255);
-    transform: rotate(2deg) ;
-   
+    transform: rotate(2deg);
+
+}
+
+
+.contact_main {
+    background-color: rgba(168, 242, 58, 0.486);
+    color: black;
+    display: flex;
+    margin: 6vw auto;
+    width: 95vw;
+    border-radius: 1vw;
+}
+
+.left_contact {
+    color: cornflowerblue;
+    background-color: burlywood;
+    font-size: 1.3vw;
+    margin: 15px auto 15px 3vw;
+    width: 40vw;
+    padding: 1vw;
+    text-align: start;
+    border-radius: 1vw;
+
+}
+
+.location {
+    width: 1.3vw;
+    height: 1.3vw;
+}
+
+
+.right_contact {
+    color: cornflowerblue;
+    background-color: burlywood;
+    font-size: 1.3vw;
+    margin: 15px 3vw 15px auto;
+    width: 40vw;
+    padding: 1vw;
+    text-align: start;
+    border-radius: 1vw;
+}
+
+.right_contact .location {
+    width: 2vw;
+    height: 2vw;
+    margin: .3vw;
+    transition: 1s;
+}
+
+.right_contact .location:hover {
+    transform: rotateY(360deg) scale(1.5);
+}
+
+.address {
+    color: black;
+    font-size: 1.3vw;
+    margin: 15px auto;
 }
 
 
