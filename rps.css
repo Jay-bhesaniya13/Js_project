@@ -1,14 +1,18 @@
 .main {
-   background-color: aliceblue;
-   
+   background-color: rgb(75, 76, 73);
+   padding-bottom: 2.5vw;
+   text-align: center;
+   color: rgb(246, 109, 211);
+   font-size: 25px;
 }
+
 
 .computer {
     background-color: chartreuse;
     margin: 0 auto;
     text-align: center;
     padding: 5vh;
-
+    color: rgb(39, 39, 236);
 }
 
 .home
@@ -34,7 +38,7 @@
 }
 
 .com_roll {
-    background-color: rgb(192, 223, 18);
+    background-color: rgb(75, 76, 73);
     margin: 0 auto;
     height: 18vh;
     width: 20vh;
@@ -44,26 +48,22 @@
     /* transition: 1s; */
 }
 
-/* .temp
-{
-    transform: rotate(50deg);
-} */
 
 .com_roll img {
     height: 15vh;
-    width: 17vh;
+    width: 7vw;
 }
 
 .com_child
 {
-    background-color: rgb(253, 250, 250);
+    background-color: rgb(139, 240, 240);
     position: absolute;
     color: orange;
     font-size: 3.5vh;
-    top:20vh;
-    right:20vh;
+    top:37vh;
+    right:15vw;
     height: 20vh;
-    width: 25vh;
+    width: 15vw;
     border-radius: 3vh;
 }
 
@@ -75,12 +75,14 @@
     margin: 5vh auto;
     text-align: center;
     padding: 5vh ;
+    
 
 }
 
 .player img {
     height: 10vh;
     width: 10vh;
+    
 }
 
 
