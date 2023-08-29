@@ -1,5 +1,6 @@
 body {
     background-color: rgb(50, 48, 48);
+    margin: 0;
 }
 
 
@@ -31,7 +32,7 @@ body {
     color: rgb(27, 27, 85);
     transition: 1.2s;
     cursor: pointer;
- 
+    
 }
 
 .card:hover {
@@ -49,6 +50,7 @@ body {
     margin: 6vw auto;
     width: 95vw;
     border-radius: 1vw;
+    margin-top: 250px;
 }
 
 .left_contact {
@@ -88,7 +90,7 @@ body {
 }
 
 .right_contact .location:hover {
-    transform: rotateY(360deg) scale(1.5);
+    transform: rotateY(180deg) scale(1.5);
 }
 
 .address {
