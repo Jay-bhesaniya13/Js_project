@@ -1,0 +1,81 @@
+body
+{
+    background-color: rgba(74, 72, 72, 0.753);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home
+{
+    position: absolute;
+    top: 2%;
+    left:2%;
+}
+
+.home a{
+    text-decoration: none;
+
+}
+.home_img
+{
+    height: 5vh;
+    transition: 1s;
+}
+
+.home_img:hover
+{
+    scale: 1.3;
+}
+
+.parent_box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    
+}
+
+.box
+{
+    background-color: rgba(109, 102, 102, 0.753);
+    color: rgb(215, 213, 224);
+    padding:15vh;
+    position: relative;
+}
+
+.copy_btn
+{
+    position: absolute;
+    right: .5vw;
+    top: .3vw;
+    padding: 1vh;
+    font-size:1.5vh;
+}
+
+.copy_btn img
+{
+    height: 1.5vh;
+    width: 1.5vh;
+}
+
+.btn
+{
+    background-color: black;
+    color: aliceblue;
+    font-size: 3vh;
+    border-radius: 1.5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1s;
+}
+
+.btn:hover
+{
+    transform:scale(1.1);
+}
+.btn:active
+{
+    transform:scale(1.3);
+}
+
