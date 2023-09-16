@@ -41,6 +41,6 @@ function change_color()
 
 function copy()
 {
-    navigator.clipboard.writeText('x');
+    navigator.clipboard.writeText(x);
     alert(x+'is copied')
 }

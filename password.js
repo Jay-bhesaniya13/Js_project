@@ -2,10 +2,10 @@ let c="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 let sc=['!', '@' ,'#' ,'$' ,'%' ,'/' ,'*',"'" ];
 let num=[0,1,2,3,4,5,6,7,8,9]
 
+
 function fun()
 {
     let pass="";
-
     c_len=document.getElementById('c_len').value;
     let n_len=document.getElementById('n_len').value;
     let sc_len=document.getElementById('sc_len').value;
@@ -43,7 +43,17 @@ function fun()
         }
        
     }
-    console.log(pass);
+
+    document.getElementById('p-text').innerHTML=pass;
 
 }
 
+function copy()
+{
+    let x=document.getElementById('p-text').innerHTML;
+    if(x!= "password")
+    {
+    navigator.clipboard.writeText(x);
+    alert(x+' is copied')
+    }
+}
