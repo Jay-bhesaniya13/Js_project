@@ -43,6 +43,7 @@ body
     color: rgb(215, 213, 224);
     padding:15vh;
     position: relative;
+    border-radius: 5%;
 }
 
 .copy_btn
