@@ -75,3 +75,5 @@ function total() {
   document.getElementById("demo").innerHTML = value;
   value= value.toString();
 }
+
+

@@ -9,6 +9,7 @@ function restart()
 {
     player_point = 0;
     computer_point = 0;
+    total();
 }
 
 function computer() {
@@ -34,6 +35,7 @@ function total() {
 }
 
 function round(player) {
+    // document.getElementById('computer_box').classList.add('com_ratate');
     player = player.toUpperCase()
     let comp = computer();
     comp = comp.toUpperCase()
@@ -68,7 +70,7 @@ function round(player) {
         document.getElementById('round_display').innerHTML = "ohh! You Lost this round";
         computer_point = computer_point + 1;
     }
-
+    
     total();
 
 }

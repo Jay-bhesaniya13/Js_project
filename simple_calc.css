@@ -102,7 +102,10 @@ body{
     font-weight: bolder;
     font-size: 4vh;
    margin-top: 1vh;
+   transition: 1s;
 }
+
+
 .symbol
 {
     background-color: rgba(39, 198, 192, 0.74);
@@ -132,3 +135,9 @@ body{
     text-align: center;
 }
 
+
+
+.button:hover 
+{
+    opacity: .75;
+}

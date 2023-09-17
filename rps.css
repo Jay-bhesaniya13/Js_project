@@ -57,11 +57,11 @@ table, th, td {
   }
 
   .computer {
-    background-color: chartreuse;
+    background-color: rgb(0, 217, 255);
     margin: 0 auto;
     text-align: center;
     padding: 2vh;
-    color: rgb(39, 39, 236);
+    color: rgb(16, 16, 3);
 }
 
 
@@ -70,10 +70,21 @@ table, th, td {
     margin: 0 auto;
     height: 19vh;
     width: 20vh;
-    /* padding: 2vh; */
     border-radius: 7vh;
+    animation: roll 1s ;
     text-align: center;
 }
+
+@keyframes roll{
+0%{
+    /* transform: rotate(0deg); */
+}
+100%{
+    transform: rotate(360deg);
+    /* transform: rotateY(360deg); */
+}
+}
+
 
 
 .com_roll img {
@@ -152,3 +163,11 @@ table, th, td {
 {
     color:red;
 }
+
+
+/* .com_ratate
+{
+    transform: rotate(360deg);
+    transition: 1s;
+} */
+
