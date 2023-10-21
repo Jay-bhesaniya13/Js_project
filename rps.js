@@ -7,9 +7,22 @@ let computer_point = 0;
 
 function restart()
 {
+    if(player_point>computer_point)
+    {
+    alert("You won this round")
+    }
+    else if(player_point<computer_point)
+    {
+        alert("Ohh!! You lost this round")   
+    }
+    else{
+        alert("Match is drawn")
+    }
+
     player_point = 0;
     computer_point = 0;
     total();
+  
 }
 
 function computer() {

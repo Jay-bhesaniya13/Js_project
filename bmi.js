@@ -13,29 +13,30 @@ function display() {
       alert("You are not eligible !!");
     }
     else {
-
+     
+      let result_color=document.getElementById("conclusion");
 
       document.getElementById("display").innerHTML = "Your BMI is " + bmi;
 
       if (bmi <= 18.4) {
         document.getElementById("conclusion").innerHTML = "You are Underweight"
-        document.getElementById("conclusion").classList.add('yellow')
+       result_color.style.color="yellow";
       }
 
       else if (bmi >= 18.5 && bmi <= 24.9) {
         document.getElementById("conclusion").innerHTML = "You are absolute fine "
-        document.getElementById("conclusion").classList.add('green')
+        result_color.style.color="green";
         console.log(bmi)
       }
 
       else if (bmi >= 25 && bmi <= 39.9) {
         document.getElementById("conclusion").innerHTML = "You are Overweight"
-        document.getElementById("conclusion").classList.add('orange')
+        result_color.style.color="orange";
         console.log(bmi)
       }
       else {
         document.getElementById("conclusion").innerHTML = "You are Obese";
-        document.getElementById("conclusion").classList.add('red')
+        result_color.style.color="red";
       }
     }
   }
